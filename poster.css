@@ -1,3 +1,8 @@
 h1{
     font-family: monospace;
 }
+
+.c{
+    display: flex;
+    justify-content: center;
+}
