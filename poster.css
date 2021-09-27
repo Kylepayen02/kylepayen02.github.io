@@ -2,7 +2,7 @@ h1{
     font-family: monospace;
 }
 
-.c{
+.container{
     display: flex;
     justify-content: center;
 }
