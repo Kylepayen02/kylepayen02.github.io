@@ -1,4 +1,21 @@
+h1{
+    color: #fad6a5;
+}
 img{
-    width: 25%;
-    height: 25%;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+body{
+    background-color: #ff6700;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: #fad6a5;
 }
