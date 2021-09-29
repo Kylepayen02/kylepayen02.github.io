@@ -1,0 +1,28 @@
+h1{
+    font-family: monospace;
+    border: solid coral 2px;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    margin: 10px;
+    border: dashed coral;
+}
+
+body{
+    border: dotted crimson 5px;
+}
+
+
+
