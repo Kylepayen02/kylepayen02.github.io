@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+body {
+    height: 100vh;
+    background-color: blACK;
+}
+
+h1 {
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+}
+
+.bottomLinks {
+    display: inline; 
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+#my-img {
+    width: 20%;
+    height: 20%; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    font-family: 'Fira Mono', monospace;
+    font-size: large;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    display: block;
+    color: white; 
+    width: 10%; 
+}
+
+.links:hover {
+    background-color: white;
+    color: black;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+
