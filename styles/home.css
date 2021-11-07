@@ -5,26 +5,6 @@ body {
     background-color: blACK;
 }
 
-h1 {
-    font-family: 'Fira Mono', monospace;
-    color: white;
-}
-
-.container {
-    display: flex;
-    justify-content: center; 
-}
-
-.bottomLinks {
-    display: inline; 
-    padding-right: 1vw;
-    padding-left: 1vw;
-}
-
-#my-img {
-    width: 20%;
-    height: 20%; 
-}
 
 ul {
     list-style-type: none;
@@ -42,11 +22,33 @@ ul {
     width: 10%; 
 }
 
+h1 {
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+}
+
+#my-img {
+    width: 20%;
+    height: 20%; 
+}
+
 .links:hover {
     background-color: white;
     color: black;
 }
 
+
+/* Footer links */
+.bottomLinks {
+    display: inline; 
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
 
 footer {
     position: absolute;

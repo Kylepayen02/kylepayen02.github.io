@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+body {
+    font-family:'Fira Mono', monospace;
+    background-color: black;
+    color: white;
 }
 
-.links {
-    font-family: 'Fira Mono', monospace;
-    font-size: large;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    display: block;
-    color: black; 
-    width: 10%; 
+/* create grid 1-2-2 */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
 }
 
 #nav{
@@ -21,12 +18,28 @@
     padding: 0;
 }
 
-.links:hover {
-    background-color: black;
-    color: white;
+.links {
+    font-family: 'Fira Mono', monospace;
+    font-size: large;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    display: block;
+    color: white; 
+    width: 50%; 
 }
 
-#nav-container {
-    
+.links:hover {
+    background-color: white;
+    color: black;
+}
+
+#img-container { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+#about-me-img {
+    width: 80%;
+    height: 100%;
 }
 
