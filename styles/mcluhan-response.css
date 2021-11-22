@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto+Condensed&display=swap');
+
+body{
+    height: 100vh;
+    background: url(https://wallup.net/wp-content/uploads/2019/09/14715-minimalistic-technology-circuits-748x468.png);
+    background-size: cover;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+#container { 
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: white;
+}
+
+
+#button-container{
+    height: 100px;
+    padding-top:50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    color: black;
+    background: white;
+    height: 10vh;
+    width: 20vw;
+}
+
+#center-img { 
+    display: flex;
+    justify-content: center;
+}
+
