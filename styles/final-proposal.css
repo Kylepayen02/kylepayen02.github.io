@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Fira+Mono&family=Great+Vibes&family=Montserrat:wght@100&family=Roboto+Condensed:wght@400;700&family=Sacramento&display=swap');
+
+.section p {
+  font-size: 2em;
+  
+}
+
+.section {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    height: 500px;
+}
+
+.column {
+    font-size: 3em;
+    background-color: white;
+    height: 500px;
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    width: 30%;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+li { 
+    text-align: left;
+}
+
+.firstColor {
+    color: #E93E47;
+}
+
+.secondColor {
+    color: #F67D52;
+}
+
+.thirdColor {
+    color: #FBA943;
+}
+
+.fourthColor {
+    color: #F24D6D;
+}
+
+#smallerText { 
+    font-size: 0.75em;
+}
+
+li {
+    margin-top: 20px;
+}
