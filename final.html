@@ -7,30 +7,62 @@
     <title>All About Love</title>
     <link rel="stylesheet" href="styles/final.css">
 </head>
-<body>
+<body class="first-page">
     <div id="header-container">
         <div class="box" id="first-box">Definition</div>
         <div class="box" id="second-box">Analysis</div>
-        <div class="box" id="third-box">Proposition</div>
-    </div>
-    <div id="center-container">
-        <p id="quote">All About Love</p>
-        <p  class="quote" id="quote-1">“To truly love we must learn to mix various ingredients - care, affection, recognition, respect, commitment, and trust, as well as honest and open communication.”</p>
-        <p id="thoughts-1">Our conception of love is ambiguous. Bell Hooks offers us an alternative: a clear definition of what love encompasses. This definiton provides us with the foundation to step closer to true love. </p>
-        <p  class="quote" id="quote-2">"To begin by always thinking of love as an action rather than a feeling is one way in which anyone using the word in this manner automatically assumes accountability and responsibility"</p>
+        <div class="box" id="third-box">Conclusions</div>
     </div>
 
-    <div id="music-player">
-        <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-        </svg>
-        <div id="music-text">
-            Now Playing: Love is Not a Four Letter Word 
-            <audio id="audio-1" src="audio/Love is Not a Four Letter Word.m4a"></audio>
+    <!--------------------------------------------------- Tab 1 -------------------------------------------------------->
+
+    <div id="center-container">
+        <p id="quote">All About Love</p>
+        <center>
+            <p  class="quote" id="quote-1">“To truly love we must learn to mix various ingredients - care, affection, recognition, respect, commitment, and trust, as well as honest and open communication.”</p>
+            <p id="thoughts-1">Our conception of love is ambiguous. Bell Hooks offers us an alternative: a clear definition of what love encompasses. This definiton provides us with the foundation to step closer to true love. </p>
+        </center>
+    </div>
+
+
+    <!--------------------------------------------------- Tab 2 ------------------------------------------------------->
+
+    <div id=grid-container>
+        <div id="grid-item1" class="center">
+            <h2 id="theme">Justice</h2>
+        </div>
+        
+        <div id="grid-item4" class="center">
+            <div id="text-center">“In a society like ours, where children are denied full civil rights, it’s absolutely critical that parenting adults learn how to offer loving discipline. Setting boundaries and teaching children how to set boundaries for themselves prior to misbehavior is an essential part of loving parenting.”</div>
         </div>
     </div>
 
+    <!-- Buttons -->
+
+    <center>
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+    </center>
+
+    <!-- Music Player-->
+
+    <div id="music-player">
+        <i class="far fa-play-circle fa-5x" id="play"></i>
+        <i class="far fa-pause-circle fa-5x" id="pause"></i>
+        <div id="music-text">
+            Now Playing: Raury - Love is Not a Four Letter Word 
+        </div>
+        <audio id="audio-1" src="audio/Love is Not a Four Letter Word.m4a"></audio>
+        <audio id="audio-2" src="audio/Amy Winehouse - Love Is A Losing Game.mp3"></audio>
+        <audio id="audio-3" src="audio/Baby Rose - Show You.mp3"></audio>
+    </div>
+
+    <!-------------------------------------------------------Tab 3------------------------------------------------------->
+    <div class="conclusion" id="conclusion-left">Instead of thinking of love as just a feeling, we should also consider it as an intentional action. We have the ability to decide who we want to love and how we want to show up in their lives.</div>
+    <div class="conclusion" id="conclusion-center">There are several tools needed to create systemic change within our current system, love being one of them. Transforming our relationship with love can be one step we can each individually make to spark a create a cultural change.</div>
+    <div class="conclusion" id="conclusion-right"> The ways in which we socialize young boys and girls is restricting. To transform our relationship with love, we must look at the ways in which gender roles prevents people from developing into their true selves. </div>
+    
+    <script src="https://kit.fontawesome.com/d4ebb47581.js" crossorigin="anonymous"></script>
     <script
         src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
